@@ -15,18 +15,12 @@ My goal is to analyze and visualize the growing trend of book bannings in school
 Some questions that guided my exploratory data analysis were:
 
 1. What is the scale of books being banned? 
-
-    a. How many are unique titles?
-    b. Are some books or authors facing consistent bans?
-
+    - How many are unique titles?
+    - Are some books or authors facing consistent bans?
 2. Are there geographical patterns of censorship? 
-
-    a. Are some states consistently banning books more than others?
-
+    - Are some states consistently banning books more than others?
 3. Who are the most banned authors in the 2023-2024 academic year?
-
-    a. Do I know them? From my understanding of their works, does something stand out?
-
+    - Do I know them? From my understanding of their works, does something stand out?
 4. What are the most banned books generally overall but also specifically last year?
 
 I've used PEN America's [2021-2022](https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/editgid=1171606318#gid=1171606318), [2022-2023](https://docs.google.com/spreadsheets/d1a6v7R7pidO7TIwRZTIh9T6c0--QNNVufcUUrDcz2GJM/edit?gid=982757372#gid=982757372) and [2023-2024](https://docs.google.com/spreadsheets/d/1slCpqLprPXHM-Wyt-WYJR30-NvbGLialVNR8qTsZFG8/edit?gid=0#gid=0) Indices to track the bans over three academic years. My hope is that a pattern of banning will emerge through the authors and books being censored. 
