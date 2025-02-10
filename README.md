@@ -17,10 +17,13 @@ Some questions that guided my exploratory data analysis were:
 1. What is the scale of books being banned? 
     - How many are unique titles?
     - Are some books or authors facing consistent bans?
+
 2. Are there geographical patterns of censorship? 
     - Are some states consistently banning books more than others?
+
 3. Who are the most banned authors in the 2023-2024 academic year?
     - Do I know them? From my understanding of their works, does something stand out?
+
 4. What are the most banned books generally overall but also specifically last year?
 
 I've used PEN America's [2021-2022](https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/editgid=1171606318#gid=1171606318), [2022-2023](https://docs.google.com/spreadsheets/d1a6v7R7pidO7TIwRZTIh9T6c0--QNNVufcUUrDcz2GJM/edit?gid=982757372#gid=982757372) and [2023-2024](https://docs.google.com/spreadsheets/d/1slCpqLprPXHM-Wyt-WYJR30-NvbGLialVNR8qTsZFG8/edit?gid=0#gid=0) Indices to track the bans over three academic years. My hope is that a pattern of banning will emerge through the authors and books being censored. 
@@ -48,18 +51,16 @@ Personally, this will be a very useful dataset to exercise my visualization musc
 1. `banned_books.ipynb` : Jupyter Notebook (Python) with all the cleaning and analysis code for the project.
 
 2. `data` directory:
-
-    a. Raw CSVs downloaded from PEN America's Index. `bb_2021-2022.csv` is the file for book bans in the 2021-2022 academic year, for example.
-    b. `all_banned_books.csv` : Cleaned, concatenated and standardised CSV of all banned books
-    c. `top50_banned_2024.csv` : 50 most banned authors in the academic year 2023-2024
-    d. `top_banned_authors_perAY.xlsx`: Excel sheet with more information on 50 most banned authors for each academic year. Not shown in final project, but I manually tabulated their gender pronouns. They were gathered from their instagram profiles, personal websites and interviews with reputable outlets or organizations like the American Library Association (ALA).
+    - Raw CSVs downloaded from PEN America's Index. `bb_2021-2022.csv` is the file for book bans in the 2021-2022 academic year, for example.
+    - `all_banned_books.csv` : Cleaned, concatenated and standardised CSV of all banned books
+    - `top50_banned_2024.csv` : 50 most banned authors in the academic year 2023-2024
+    - `top_banned_authors_perAY.xlsx`: Excel sheet with more information on 50 most banned authors for each academic year. Not shown in final project, but I manually tabulated their gender pronouns. They were gathered from their instagram profiles, personal websites and interviews with reputable outlets or organizations like the American Library Association (ALA).
 
 
 3. `data_viz` directory:
-
-    a. `radial_final.svg` : final radial chart for the project
+    - `radial_final.svg` : final radial chart for the project
         - `radial_chart.R`: code to create the bones of the radial chart 
-    b. `treemap_final-01.svg`: final treemap graphic for the project
+    - `treemap_final-01.svg`: final treemap graphic for the project
 
 
 ## Methodology 
@@ -67,22 +68,21 @@ Personally, this will be a very useful dataset to exercise my visualization musc
 Here is the framework that I followed for my analysis. The code notebook contains more detailed commentary for the individual steps.
 
 1. Download PEN America's Index as CSVs for each academic year 
-2. Combine all of them together to get one big file of all the banned books
 
-    a. I dropped the "Series" column since it was not well-populated and only present in 2/3 academic years
+2. Combine all of them together to get one big file of all the banned books
+    - I dropped the "Series" column since it was not well-populated and only present in 2/3 academic years
 
 3. Clean and Standardise Data. Few of the steps include:
-
-    a. Changed author names from (last name, first name) to (first name, last name) for readability
-    b. Standardised "Ban Status" - many of the columns meant the same thing but had case differences or were not an exact match so it would make accurate counting and grouping difficult
-    c. Dropped one row from the analysis that did not have the Title or Author. With my resources, it was not possible to find out which book that was. 
+    - Changed author names from (last name, first name) to (first name, last name) for readability
+    - Standardised "Ban Status" - many of the columns meant the same thing but had case differences or were not an exact match so it would make accurate counting and grouping difficult
+    - Dropped one row from the analysis that did not have the Title or Author. With my resources, it was not possible to find out which book that was. 
 
 4. Grouping, Counting and Transforming data for analysis and visualization
-5. Visualization:
 
-    a. Radial Bar: Used `ggplot2` to plot a circular bar graph and then used Illustrator to accurately annotate the different works of the authors
-    b. Treemap: Rawgraphs gave me the skeletal framework for the Treemap but it had to be manually annotated in Illustrator using numbers from the analysis notebook.
-    c. Datawrapper graphs were embedded directly into the HTML
+5. Visualization:
+    - Radial Bar: Used `ggplot2` to plot a circular bar graph and then used Illustrator to accurately annotate the different works of the authors
+    - Treemap: Rawgraphs gave me the skeletal framework for the Treemap but it had to be manually annotated in Illustrator using numbers from the analysis notebook.
+    - Datawrapper graphs were embedded directly into the HTML
 
 6. Used a basic story template (HTML framework) to bring the visualizations together into a story.
 
