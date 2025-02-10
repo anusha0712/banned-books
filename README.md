@@ -63,6 +63,7 @@ Personally, this will be a very useful dataset to exercise my visualization musc
 3. `data_viz` directory:
     - `radial_final.svg` : final radial chart for the project
         - `radial_chart.R`: code to create the bones of the radial chart 
+
     - `treemap_final-01.svg`: final treemap graphic for the project
 
 
@@ -77,14 +78,18 @@ Here is the framework that I followed for my analysis. The code notebook contain
 
 3. Clean and Standardise Data. Few of the steps include:
     - Changed author names from (last name, first name) to (first name, last name) for readability
+
     - Standardised "Ban Status" - many of the columns meant the same thing but had case differences or were not an exact match so it would make accurate counting and grouping difficult
+
     - Dropped one row from the analysis that did not have the Title or Author. With my resources, it was not possible to find out which book that was. 
 
 4. Grouping, Counting and Transforming data for analysis and visualization
 
 5. Visualization:
     - Radial Bar: Used `ggplot2` to plot a circular bar graph and then used Illustrator to accurately annotate the different works of the authors
+
     - Treemap: Rawgraphs gave me the skeletal framework for the Treemap but it had to be manually annotated in Illustrator using numbers from the analysis notebook.
+    
     - Datawrapper graphs were embedded directly into the HTML
 
 6. Used a basic story template (HTML framework) to bring the visualizations together into a story.
