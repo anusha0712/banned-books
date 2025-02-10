@@ -6,7 +6,7 @@ Hello! My name is Anusha Subramanian and I'm a Data Journalist at Columbia Journ
 
 For this project, I was interested in the phenomenon of schools banning books that educators have already selected as educational offerings, at the behest of outside influences such as parents, lawmakers, community members etc. 
 
-I grew up in Mumbai, India, and while there were plenty of books that my parents were opposed to be reading (Wattpad, anyone?), they had no authority at all to tell my school what they could or could not stock in their libraries. PEN America, the nonprofit organization aimed at protecting freedom of expression, releases an annual Index of School Book Bans in USA that catalogues every time in the academic year that a book is "challenged" because of it's content and is investigated, leading to restricted access or bans. You can read last year's report here 2023-2024 [here](https://pen.org/book-bans pen-america-index-of-school-book-bans-2023-2024/). This Index is the dataset that I will be using for this project. 
+I grew up in Mumbai, India, and while there were plenty of books that my parents were opposed to be reading (Wattpad, anyone?), they had no authority at all to tell my school what they could or could not stock in their libraries. PEN America, the nonprofit organization aimed at protecting freedom of expression, releases an annual Index of School Book Bans in USA that catalogues every time in the academic year that a book is "challenged" because of it's content and is investigated, leading to restricted access or bans. You can read last year's report here 2023-2024 [here](https://pen.org/book-banspen-america-index-of-school-book-bans-2023-2024/). This Index is the dataset that I will be using for this project. 
 
 ## Goals
 
@@ -23,7 +23,7 @@ Some questions that guided my exploratory data analysis were:
     a. Do I know them? From my understanding of their works, does something stand out?
 4. What are the most banned books generally overall but also specifically last year?
 
-I've used PEN America's [2021-2022](https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/edit?gid=1171606318#gid=1171606318), [2022-2023](https://docs.google.com/spreadsheets/d/1a6v7R7pidO7TIwRZTIh9T6c0--QNNVufcUUrDcz2GJM/edit?gid=982757372#gid=982757372and [2023-2024](https://docs.google.com/spreadsheets/d/1slCpqLprPXHM-Wyt-WYJR30-NvbGLialVNR8qTsZFG8/edit?)gid=0#gid=0) Indices to track the bans over three academic years. My hope is that a pattern of banning will emerge through the authors and books being censored. 
+I've used PEN America's [2021-2022](https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/editgid=1171606318#gid=1171606318), [2022-2023](https://docs.google.com/spreadsheets/d1a6v7R7pidO7TIwRZTIh9T6c0--QNNVufcUUrDcz2GJM/edit?gid=982757372#gid=982757372) and [2023-2024](https://docs.google.com/spreadsheets/d/1slCpqLprPXHM-Wyt-WYJR30-NvbGLialVNR8qTsZFG8/edit?gid=0#gid=0) Indices to track the bans over three academic years. My hope is that a pattern of banning will emerge through the authors and books being censored. 
 
 Personally, this will a very useful dataset to exercise my visualization muscles. I want to gain a better understanding of data viz tools like Rawgraph, use Illustrator for the first time and grapple with the wide flexibility of `ggplot2` in R. I'm also excited to complete a self-guided project from the ground up.
 
@@ -120,7 +120,7 @@ Claude AI was also used in two secondary ways:
 
 ## Questions
 
-I would love to chat more about my work, including this project! If you have any questions, please [email] me!(mailto:as7500@columbia.edu)
+I would love to chat more about my work, including this project! If you have any questions, please [email me!](mailto:as7500@columbia.edu)
 
 
     
