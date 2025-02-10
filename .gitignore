@@ -294,4 +294,4 @@ rsconnect/
 # End of https://www.toptal.com/developers/gitignore/api/python,r,macos,visualstudiocode,jupyternotebooks
 
 #ignore folder
-"editable viz"/
+editable_viz/
