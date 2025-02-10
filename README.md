@@ -52,8 +52,11 @@ Personally, this will be a very useful dataset to exercise my visualization musc
 
 2. `data` directory:
     - Raw CSVs downloaded from PEN America's Index. `bb_2021-2022.csv` is the file for book bans in the 2021-2022 academic year, for example.
+
     - `all_banned_books.csv` : Cleaned, concatenated and standardised CSV of all banned books
+
     - `top50_banned_2024.csv` : 50 most banned authors in the academic year 2023-2024
+    
     - `top_banned_authors_perAY.xlsx`: Excel sheet with more information on 50 most banned authors for each academic year. Not shown in final project, but I manually tabulated their gender pronouns. They were gathered from their instagram profiles, personal websites and interviews with reputable outlets or organizations like the American Library Association (ALA).
 
 
